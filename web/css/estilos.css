@@ -1,0 +1,35 @@
+body{
+	background-color: #F4ECCA;
+	text-align: center;
+}
+#contenidoLogin{
+	margin: 0 auto;
+	border:2px solid #000;
+	padding: 2em;	
+	max-width:  30%;
+}
+#contenidoLogin div{
+	padding: 0.5em;
+	width: 100%;
+}
+#contenidoLogin div label{
+	text-align: right;
+	max-width: 30%;
+	color: #952;
+}
+#contenidoLogin div input[type="text"],[type ="password"] {
+	min-width: 70%;	
+}
+.botones{
+	margin: 0.5em;
+	background-color: #0C5458;
+	color: #EEE;
+	border: none;
+	outline: none;
+	padding: 0.3em;
+	border-radius: 10px;
+}
+.botones:hover{
+	background-color: rgba(0,0,0,0.5);
+
+}
